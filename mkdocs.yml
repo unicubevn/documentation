@@ -9,6 +9,7 @@ theme:
   name: material
   logo: assets/logo.png
   font: false
+  language: vi
   icon:
     logo: material/library
     previous: fontawesome/solid/angle-left
@@ -49,8 +50,8 @@ plugins:
   - social
   - search
   - git-revision-date
-  - pdf-export:
-      combined: true
+#  - pdf-export:
+#      combined: true
   - minify:
       minify_html: true
       minify_js: true
@@ -64,12 +65,12 @@ extra:
   version:
     provider: mike
   alternate:
-    - name: English
-      link: /en/
-      lang: en
     - name: Vietnamese
       link: /vi/
       lang: vi
+    - name: English
+      link: /en/
+      lang: en
   socials:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@squidfunk
@@ -94,7 +95,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 # Navigation with TOC (Table of Content)
 nav:
-  - Home: index.md
-  - Blog: blog/index.md
-  - Guides: guides/index.md
-  - About Us: about.md
+  - Home: home/vi/index.md
+  - Blog: blog/vi/index.md
+  - Guides: guides/vi/index.md
+  - About Us: home/vi/about.md

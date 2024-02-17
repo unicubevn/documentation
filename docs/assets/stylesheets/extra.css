@@ -25,12 +25,13 @@
     background-color: var(--md-primary-bg-color);
 }
 
-.md_main{
-    .md-grid{
-        min-width: 100%;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+.md-main{
+    .md-main__inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 100vw;
+    /* overflow: auto; */
+}
 }
 .md-footer{
     background: linear-gradient(152.15deg,#47474b,#32366F);
