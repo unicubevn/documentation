@@ -7,7 +7,9 @@ edit_uri: 'docs/'
 site_url: 'https://docs.unicube.vn'
 theme:
   name: material
+  custom_dir: 'overrides/'
   logo: assets/logo.png
+  favicon: assets/favicon.ico
   font: false
   language: vi
   icon:
@@ -45,7 +47,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 plugins:
-  - blog
+#  - blog
 #  - optimize
   - social
   - search
@@ -59,6 +61,21 @@ plugins:
       htmlmin_opts:
         remove_comments: true
       cache_safe: true
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: vi
+          name: Tiếng Việt
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            "Trang chủ": Home
+            Blog: Blog
+            "Hướng dẫn": Guides
+            "Về Chúng Tôi": About Us
 
 # Customization
 extra:
@@ -77,7 +94,7 @@ extra:
 extra_css:
   - https://fonts.cdnfonts.com/css/montserrat
   - https://fonts.cdnfonts.com/css/noto-mono
-  - assets/stylesheets/extra.css
+  - ../assets/stylesheets/extra.css
 # Enabling permalinks on TOC
 markdown_extensions:
   - smarty
@@ -95,7 +112,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 # Navigation with TOC (Table of Content)
 nav:
-  - Home: home/vi/index.md
-  - Blog: blog/vi/index.md
-  - Guides: guides/vi/index.md
-  - About Us: home/vi/about.md
+  - Trang chủ: index.md
+  - Blog: blog/index.md
+  - Hướng dẫn: guides/index.md
+  - Về Chúng Tôi: about.md
