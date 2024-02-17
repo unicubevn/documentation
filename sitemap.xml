@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.unicube.vn/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/"/>
+    </url>
+    <url>
+        <loc>https://docs.unicube.vn/about/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/about/"/>
+    </url>
+    <url>
+        <loc>https://docs.unicube.vn/blog/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/blog/"/>
+    </url>
+    <url>
+        <loc>https://docs.unicube.vn/guides/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/guides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/guides/"/>
+    </url>
+    <url>
+        <loc>https://docs.unicube.vn/en/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/"/>
+    </url>
+    <url>
+        <loc>https://docs.unicube.vn/en/about/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/about/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/about/"/>
+    </url>
+    <url>
+        <loc>https://docs.unicube.vn/en/blog/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/blog/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/blog/"/>
+    </url>
+    <url>
+        <loc>https://docs.unicube.vn/en/guides/</loc>
+        <lastmod>2024-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.unicube.vn/en/guides/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.unicube.vn/guides/"/>
+    </url>
+</urlset>

@@ -1,0 +1,58 @@
+/* Remove mkdocs copyright */
+.md-copyright {
+    display: none;
+}
+
+.md-header {
+    color: #32366F;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0.2rem #E5E5E5, 0 0.2rem 0.4rem #E5E5E5;
+    .md-grid{
+        min-width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .md-logo{
+        img{
+            height: 3rem;
+        }
+    }
+}
+
+
+.md-tabs {
+    color: var(--md-primary-fg-color);
+    background-color: var(--md-primary-bg-color);
+}
+
+.md-main{
+    .md-main__inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 100vw;
+    /* overflow: auto; */
+}
+}
+.md-footer{
+    background: linear-gradient(152.15deg,#47474b,#32366F);
+}
+/* Configurations */
+:root {
+    --md-text-font: "Montserrat";
+    --md-code-font: "Noto Mono";
+}
+
+/*:root {*/
+/*  --md-primary-fg-color:        #EE0F0F;*/
+/*  --md-primary-fg-color--light: #ECB7B7;*/
+/*  --md-primary-fg-color--dark:  #90030C;*/
+/*}*/
+[data-md-color-scheme="unicube"] {
+    --md-primary-fg-color:#F28C3E;
+    --md-primary-fg-color--light: #F28C3E;
+    --md-primary-fg-color--dark: #F28C3E;
+    --md-primary-bg-color: #E0EAF5;
+    --md-accent-fg-color: #2E77AE;
+    --md-typeset-a-color: var(--md-primary-fg-color);
+
+}
